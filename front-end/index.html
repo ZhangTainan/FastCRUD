@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生管理系统</title>
+    <!-- 引入Axios -->
+    <script src="./axios.min.js"></script>
+    <!-- 引入css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+            尝试完成一个学生管理系统 
+    -->
+    <div class="head">
+        <input type="text" placeholder="请输入关键字查询学生" id="keyword">
+        <button id="search-btn">搜索</button>
+        <button id="add-button">添加</button>
+    </div>
+    <div class="body">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>姓名</th>
+                    <th>年龄</th>
+                    <th>性别</th>
+                    <th>专业</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <div class="foot">
+        <button id="pre-page">上一页</button>
+        <span id="current-page">1</span>
+        <button id="next-page">下一页</button>
+    </div>
+    <!-- 引入js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

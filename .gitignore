@@ -1,0 +1,12 @@
+# Ignore VSCode and PyCharm related files
+.vscode/
+.idea
+
+# Ignore Python pycache files
+__pycache__/
+
+# Ignore specific pycache files in all directories
+**/__pycache__/
+
+# Ignore all .pyc files (Python compiled bytecode)
+*.pyc

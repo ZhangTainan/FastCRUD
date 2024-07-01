@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 50%;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+.head #keyword {
+    width: 30vw;
+    height: 30px;
+    text-indent: 2em;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: hsl(210, 100%, 49%);
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.head button {
+    background-color: #4CAF50;
+    margin-left: 10px;
+}
+
+.head #search-btn {
+    background-color: #007ffb;
+}
+
+#table {
+    width: 80vw;
+    margin: 20px auto;
+}
+
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+
+
+#table th, table td {
+    width: calc(100% / 6);
+    /* 平均分配列宽，假设表格有3列 */
+}
+
+.options button {
+    width: 50px;
+    height: 20px;
+    background-color: #b78705;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.options button:nth-child(2) {
+    background-color: #e33c2f;
+}
+
+.foot {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.foot button {
+    width: 60px;
+    height: 30px;
+    background-color: #009dff;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.foot #current-page {
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
